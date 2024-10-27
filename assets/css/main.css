@@ -132,6 +132,7 @@ input, select, textarea {
 	}
 
 		h2.alt {
+			display: inline-block;
 			color: #ffffff;
 		}
 
