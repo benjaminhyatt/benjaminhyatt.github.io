@@ -129,16 +129,17 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 2em;
 		letter-spacing: -1px;
-		float:left;
+		float: left;
 	}
 
 		h2.alt {
 			color: #ffffff;
-			float:left;
+			float: left;
 		}
 
 			h2.alt strong {
 				color: #ffffff;
+				float: left;
 			}
 
 	h3 {
