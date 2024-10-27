@@ -1755,11 +1755,6 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
-		.image imgr {
-			display: block;
-			width: 100%;
-			float: right;
-		}
 
 		.image.avatar48 {
 			width: 48px;
