@@ -133,12 +133,12 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #ffffff;
+			color: #888;
 			float: left;
 		}
 
 			h2.alt strong {
-				color: #ffffff;
+				color: #666;
 				float: left;
 			}
 
@@ -160,7 +160,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		color: #ffffff;
+		color: #666;
 	}
 
 	em, i {
