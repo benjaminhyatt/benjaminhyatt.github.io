@@ -135,21 +135,23 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 2em;
 		letter-spacing: -1px;
-		float: left;
 	}
 
 		h2.alt {
 			color: #888;
-			float: left;
 		}
 
 			h2.alt strong {
 				color: #666;
-				float: left;
 			}
 
 	h3 {
 		font-size: 1.5em;
+	}
+
+	h4 {
+		color: #fff;
+		float: left;
 	}
 
 	header {
