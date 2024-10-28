@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;;
+		color: #888;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -107,7 +107,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #ffffff;
+		color: #fff;
 	}
 
 	h1 {
@@ -128,7 +128,7 @@ input, select, textarea {
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #ffffff;
+			color: #fff;
 		}
 
 	h2 {
