@@ -2446,7 +2446,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				-webkit-overflow-scrolling: touch;
+				/*-webkit-overflow-scrolling: touch;*/
 				display: block;
 				height: 100%;
 				left: 0;
