@@ -611,11 +611,24 @@
 			text-align: center;
 
 			a {
-				color: #41484c;
 				@include vendor('transition', 'color 0.35s ease-in-out');
 
+				&:link {
+				  color: #1b9e77;
+				  background-color: transparent;
+				  text-decoration: none;
+				}
+				
+				&:visited {
+				  color: #7570b3;
+				  background-color: transparent;
+				  text-decoration: none;
+				}
+				
 				&:hover {
-					color: #fff;
+				  color: #d95f02;
+				  background-color: transparent;
+				  text-decoration: none;
 				}
 			}
 		}
