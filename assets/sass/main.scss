@@ -187,25 +187,24 @@
 
 	a {
 		text-decoration: none;
-		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+		border-bottom: dotted 1px;
 		@include vendor('transition', ('color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
 		outline: 0;
 
 		&:link {
-		  color: purple;
+		  color: #1b9e77;
 		  background-color: transparent;
 		  text-decoration: none;
 		}
 		
 		&:visited {
-		  color: orange;
+		  color: #7570b3;
 		  background-color: transparent;
 		  text-decoration: none;
 		}
 		
 		&:hover {
-		  color: red;
+		  color: #d95f02;
 		  background-color: transparent;
 		  text-decoration: none;
 		}
@@ -756,22 +755,22 @@
 				}
 
 				a {
-					border-color: inherit;
+				
 					&:link {
-					  color: purple;
+					  color: #1b9e77;
 					  background-color: transparent;
 					  text-decoration: none;
 					}
 					
 					&:visited {
-					  color: orange;
+					  color: #7570b3;
 					  background-color: transparent;
 					  text-decoration: none;
 					}
 
 					
 					&:hover {
-					  color: red;
+					  color: #d95f02;
 					  background-color: transparent;
 					  text-decoration: none;
 					}
