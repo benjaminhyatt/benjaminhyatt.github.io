@@ -756,11 +756,24 @@
 				}
 
 				a {
-					color: #fff;
 					border-color: inherit;
+					&:link {
+					  color: purple;
+					  background-color: transparent;
+					  text-decoration: none;
+					}
+					
+					&:visited {
+					  color: orange;
+					  background-color: transparent;
+					  text-decoration: none;
+					}
 
+					
 					&:hover {
-						border-bottom-color: rgba(255, 255, 255, 0);
+					  color: red;
+					  background-color: transparent;
+					  text-decoration: none;
 					}
 				}
 			}
