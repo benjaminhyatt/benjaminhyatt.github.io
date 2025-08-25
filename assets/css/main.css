@@ -83,6 +83,13 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	.paragraph {
+	  display: flex;
+	}
+	.text {
+	  align-self: flex-end;
+	}
+
 	body {
 		background: #ffffff;
 		font-family: 'Source Sans Pro', sans-serif;
