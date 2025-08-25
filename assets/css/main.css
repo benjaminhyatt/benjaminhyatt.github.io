@@ -86,9 +86,6 @@ input, select, textarea {
 	.paragraph {
 	  display: flex;
 	}
-	.text {
-	  align-self: flex-end;
-	}
 
 	body {
 		background: #ffffff;
