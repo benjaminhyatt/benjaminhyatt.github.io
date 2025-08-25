@@ -91,6 +91,11 @@ input, select, textarea {
  		display: flex;
 	}
 
+	p span {
+		padding-left:10pt; 
+    	display:inline-block;
+	}
+
 	body {
 		background: #ffffff;
 		font-family: 'Source Sans Pro', sans-serif;
