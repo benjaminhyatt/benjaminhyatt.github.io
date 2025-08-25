@@ -83,35 +83,9 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	.text {
-		align-self: flex-end;
-	}
-
-	.paragraph {
- 		display: flex;
-	}
-
 	p span {
 		padding-left:10pt; 
     	display:inline-block;
-	}
-
-	a:link {
-	  color: green;
-	  background-color: transparent;
-	  text-decoration: none;
-	}
-	
-	a:visited {
-	  color: pink;
-	  background-color: transparent;
-	  text-decoration: none;
-	}
-	
-	a:hover {
-	  color: red;
-	  background-color: transparent;
-	  text-decoration: underline;
 	}
 
 	body {
