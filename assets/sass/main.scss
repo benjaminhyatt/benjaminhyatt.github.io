@@ -193,20 +193,21 @@
 		outline: 0;
 
 		&:link {
-		  color: red;
-		  background-color: transparent;
-		  text-decoration: none;
-		}
-		
-		&:visited {
 		  color: purple;
 		  background-color: transparent;
 		  text-decoration: none;
 		}
 		
+		&:visited {
+		  color: orange;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+		
 		&:hover {
-			color: #E27689;
-			border-bottom-color: rgba(255, 255, 255, 0);
+		  color: red;
+		  background-color: transparent;
+		  text-decoration: none;
 		}
 	}
 
