@@ -78,7 +78,7 @@ re<!DOCTYPE HTML>
 							<a href="https://ciera.northwestern.edu/" target="_blank">Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA)</a>.
 							I study numerical methods for solving partial differential equations, and their application
 							to problems in geophysics and astrophysics. 
-							Much of my doctoral research has been supported by a <a href="https://nsfgrfp.org" target="_blank">NSF Graduate Research Fellowship</a> (2023-2026).
+							I was supported by a <a href="https://nsfgrfp.org" target="_blank">NSF Graduate Research Fellowship</a> from 2023 to 2026.
 							I am advised by 
 							<a href="https://people.esam.northwestern.edu/~lecoanet/" target="_blank">Daniel Lecoanet</a>,  
 							and some of my collaborators include <a href="http://keaton-burns.com" target="_blank">Keaton Burns</a>,
@@ -122,9 +122,10 @@ re<!DOCTYPE HTML>
 								<a href ="https://doi.org/10.1038/s41467-018-06017-3" target="_blank">hexagonal flow patterns</a> thought to be signatures of Rossby waves, to
 								large-scale jets and vortices (e.g., most famously, <a href ="https://doi.org/10.3847/PSJ/ad71d1" target="_blank"> Jupiter's Gread Red Spot</a>). 
 								In a more recent discovery, the <a href ="https://science.nasa.gov/mission/juno/" target="_blank">NASA Juno mission</a> observed clusters of vortices 
-								at Jupiter's North and South poles. Since then, models of polar vortex formation have seen renewed interest. 
-								It is generally thought that the rotation of the planet is an essential ingredient to stabilizing and confining these formations to the polar regions, 
-								but there remain open questions left to reconcile. 
+								at Jupiter's North and South poles (e.g., as described by <a href ="https://doi.org/10.1038/nature25491">Adriani et al. (2018)</a>). 
+								Since then, models of polar vortex formation have seen renewed interest. 
+								It is generally thought that planetary rotation plays a crucial role in stabilizing and confining these formations to the polar regions, 
+								but there are many questions left to unravel. 
 								In particular, I am studying simulations of polar vortex formation in differentially rotating forced-dissipative 2D turbulence to 
 								better understand how Rossby waves may drive circumpolar vortex dynamics.
 							</header>
@@ -134,14 +135,18 @@ re<!DOCTYPE HTML>
 								<br/>
 								<img src="images/figure-10-vn-eigenspectra.png" alt="" width="679" height="420">
 								<br/>
-								I use the pseudospectral code <a href ="https://dedalus-project.org/" target="_blank">Dedalus</a> which 
-								employs multistep and multistage implicit-explicit (IMEX) timestepping schemes to discretize problems in time. 
+								I use the pseudospectral code <a href ="https://dedalus-project.org/" target="_blank">Dedalus</a> primarily to 
+								evolve fluid dynamics simulations forward in time. 
+								Dedalus is designed to use multistep and multistage implicit-explicit (IMEX) schemes for time-stepping, and the time step size
+								is typically selected by satisfying a CFL stability condition on the explicit terms.
 								The stability properties of these schemes are well understood in the context of linear theory, but there remain
-								open questions when evolving nonlinear flows. Recently, I have used methods from multiscale asymptotics to develop
-								an analytical framework to determine the stability of IMEX schemes when used to evolve nonlinear waves. A published 
-								manuscript on this work is published in the Journal of Computational Physics <a href="https://doi.org/10.1016/j.jcp.2025.113923" target="_blank">here</a>,
-								and can otherwise be found on the arxiv <a href="https://arxiv.org/abs/2411.07286" target="_blank">here</a>. 
-								This analysis has so far been successfully applied to dispersive problems (e.g., soliton propagation), but future
+								open questions when evolving nonlinear flows. 
+								I have used methods from multiscale asymptotics to develop an analytical framework to determine the stability of IMEX schemes 
+								when solving for the propagation of nonlinear waves. 
+								A peer-reviewed manuscript on this work is published in the Journal of Computational Physics 
+								<a href="https://doi.org/10.1016/j.jcp.2025.113923" target="_blank">here</a>, and can otherwise be found on the arxiv 
+								<a href="https://arxiv.org/abs/2411.07286" target="_blank">here</a>. 
+								My analysis has so far been successfully applied to dispersive problems (e.g., soliton propagation), but future
 								work can look to extend this analysis to problems with dissipation and to other classes of timestepping schemes.
 							</header>
 
@@ -151,10 +156,11 @@ re<!DOCTYPE HTML>
 								<img src="images/fig_mr_M_B2Cf_rk2-2-rk2.png" alt="" width="679" height="420">
 								<br/>
 								In 2024 I had the opportunity to work in the <a href = "https://computing.llnl.gov/casc" target="_blank">Center for 
-								Applied Scientific Computing</a> at Lawrence Livermore National Laboratory for 3 months. I investigated temporal 
+								Applied Scientific Computing</a> at Lawrence Livermore National Laboratory. I investigated temporal 
 								<em>operator splitting</em> methods, such as those used to couple the different physical processes included in
-								the <a href = "https://e3sm.org/" target="_blank">E3SM</a> atmosphere model. I presented results from this work at AGU24; 
-								an abstract can be found <a href = "https://eesm.science.energy.gov/presentations/error-analysis-single-and-multi-rate-temporal-coupling-approaches-simplified-aerosol" target="_blank">here</a>. 
+								the <a href = "https://e3sm.org/" target="_blank">E3SM</a> Atmosphere Model. I presented results from this work at AGU24; 
+								an abstract can be found 
+								<a href = "https://eesm.science.energy.gov/presentations/error-analysis-single-and-multi-rate-temporal-coupling-approaches-simplified-aerosol" target="_blank">here</a>. 
 								I am currently interested in comparing the performance of different types of operator splittings (multirate, IMEX, etc.) 
 								and their suitability for timestepping geophysical systems (e.g., moist convection, aerosol models, etc.) when there are large separations in time scales.
 							</header>
@@ -164,12 +170,13 @@ re<!DOCTYPE HTML>
 								<br/>
 								<img src="images/snapshot_mu_1em03_R_1d6ep03_Ro_2em02_Nx_128_Ny_128_Nz_512.png" alt="" width="679" height="420">
 								<br/>
-								Models of stellar evolution rely on developing parameterizations to approximate theoretical predictions from first principles, e.g., by extrapolating the
-								results of nonlinear direct numerical simulations. Previous studies (e.g., 
+								Models of stellar evolution rely on developing parameterizations to approximate theoretical predictions from first principles, 
+								e.g., by extrapolating the results of nonlinear direct numerical simulations. 
+								Previous studies (e.g., 
 								<a href="https://ui.adsabs.harvard.edu/abs/2022ApJ...926..169A/abstract" target="_blank">Anders et al. (2022)</a>) 
 								have used 3D hydrodynamical simulations to study convective penetration, which is a source of uncertainty 
-								in current stellar evolution models. I am currently running 3D simulations to explore the effects of rotation 
-								on convective penetration, which previous studies have not yet incorporated.
+								in current stellar evolution models. I have ran 3D simulations to quantify how rotation alters the efficiency of mixing at the
+								radiative-convectiv boundary and determine whether the extent of the penetration zone is affected.
 							</header>
 							<!--
 							<div class="row">
