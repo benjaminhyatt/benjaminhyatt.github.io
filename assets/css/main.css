@@ -2267,11 +2267,11 @@ input, select, textarea {
 					}
 
 			#main > section.one {
-				height: 300px;
+				height: 350px;
 				padding: 0;
 				background-color: #81918E;
 				/*background-color: #81918E;*/
-				background-image: url("../../images/snapshot_analysis_nu_9em05_gam_2d8ep03_kf_3d0ep01_ki_3d0ep01_Nphi_1024_Nr_512_eps_1d0ep00_alpha_1d0em02_tau_mod_0_seed_804_safety_2d0em01_timestepper_SBDF2_ncc_cutoff1d0em06_implicit_1_s10_w029966_scales_2_sl.png");
+				background-image: url("../../images/snapshot_analysis_nu_9em05_gam_2d8ep03_kf_3d0ep01_ki_3d0ep01_Nphi_1024_Nr_512_eps_1d0ep00_alpha_1d0em02_tau_mod_0_seed_804_safety_2d0em01_timestepper_SBDF2_ncc_cutoff1d0em06_implicit_1_s10_w029966_2_sl.png");
     			background-size: cover;
 				background-position: center center;
 			}
