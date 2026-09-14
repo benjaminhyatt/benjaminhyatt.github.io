@@ -2267,10 +2267,14 @@ input, select, textarea {
 					}
 
 			#main > section.one {
-				padding: 8em 0;
+				/*padding: 8em 0; */
+				/* height: 400px; */
+				width: 100%;
+				aspect-ratio: 25 / 14; 
 				background-color: #81918E;
 				background-image: url("../../images/snapshot_analysis_nu_9em05_gam_2d8ep03_kf_3d0ep01_ki_3d0ep01_Nphi_1024_Nr_512_eps_1d0ep00_alpha_1d0em02_tau_mod_0_seed_804_safety_2d0em01_timestepper_SBDF2_ncc_cutoff1d0em06_implicit_1_s10_w029966_2_sl.png");
-    			background-size: contain;
+    			background-size: cover;
+				/* background-size: contain; */
 				background-repeat: no-repeat;
 				background-position: center center;
 			}
